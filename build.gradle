@@ -24,7 +24,7 @@ version = '1.0.0'
 
 
 def dependencyList = [
-        "pfspring-jwt"
+        "pfspring-identity"
 ]
 
 dependencies {
