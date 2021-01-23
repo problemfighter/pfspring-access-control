@@ -1,7 +1,7 @@
 package com.problemfighter.pfspring.ac.auth;
 
 
-import com.problemfighter.pfspring.identity.filter.JwtTokenFilter;
+import com.problemfighter.pfspring.identity.filter.JwtTokenFilterInterface;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
@@ -13,7 +13,7 @@ import java.io.IOException;
 
 
 @Component
-public class ACJwtTokenFilter extends OncePerRequestFilter implements JwtTokenFilter {
+public class ACJwtTokenFilter extends OncePerRequestFilter implements JwtTokenFilterInterface {
 
 
     @Override
